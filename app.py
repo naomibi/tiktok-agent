@@ -24,7 +24,7 @@ def create_title_overlay(title_text, base_image_path, overlay_path):
     )
 
     # フォント設定
-    font_path = "C:/Windows/Fonts/meiryob.ttc"
+    font_path = "meiryob.ttc"
 
     font_big = ImageFont.truetype(font_path, int(w * 0.075))
     font_small = ImageFont.truetype(font_path, int(w * 0.055))
